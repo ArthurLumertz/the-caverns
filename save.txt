@@ -1,0 +1,60 @@
+<!-- <title>The Caverns</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+<body></body>
+
+<div id="window">
+    <div id="footer">
+        <div title="Made by 3 students.">Made by Angela, Arthur, Carol, Gabi</div>
+        <div title="It's a mess.." onmouseup="javascript:document.location='https://docs.google.com/document/d/1YOxEpCPcjJu3npWwT3UaoYLZUywUWAPOrFW8wPhWE6M/edit?usp=sharing'">Script</div>
+        <div title="Check it out on GitHub!">Source code</div>
+        &nbsp;&nbsp;&nbsp;
+        <div title="Save the game on the local storage (cookies)." onclick="Save();"> 
+            Save
+        </div>
+        <div title="Import from the local storage." onclick="Import();"> 
+            Import
+        </div>
+        <div title="Restart local storage." onclick="Reset();">
+            Reset
+        </div>
+        <div title="Toggles the current music.">
+            <input type="checkbox" id="musicOn" checked>
+            <label for="musicOn">Music</label>
+        </div>
+    </div>
+    <div id="mainContent">
+        <div class="dialogueImage">
+            <p class="title" id="current_character_tooltip" title="The current character speaking.">Current Character</p>
+            <img id="dialogueImage" src="img/aingeal.png">
+        </div>
+        <div class="stats">
+            <p class="title" title="Your statistics.">Statistics (jake)</p>
+            <p class="description">Health: <a id="health"></a></p>
+            <p class="description">Weapon: <a id="weapon"></a></p>
+        </div>
+        <div class="stats" style="left:80%;top:0;">
+            <div>
+                <p id="consoleOutput" class="description" style="font-family:monospace;font-size:13px;color:#292;"></p>
+                <script>
+                    console.log = function(message) {
+                        var consoleOutput = document.getElementById("consoleOutput");
+                        consoleOutput.innerHTML += message + "<br>";
+                    }
+                </script>
+            </div>
+            <div></div>
+        </div>
+        <div id="dialogue"></div>
+        <div id="buttonContainer">
+            <span class="button" id="continue" onclick="IncreaseDialogue();">Continue</span>
+            <span class="button" id="button1" onclick=""></span>
+            <span class="button" id="button2" onclick=""></span>
+            <span class="button" id="button3" onclick=""></span>
+            <span class="button" id="button4" onclick=""></span>
+        </div>
+    </div>
+</div>-->
